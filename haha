@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+  </head>
+
+  <body>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .container {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: 1200px;
+        flex-direction: column;
+      }
+
+      a {
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .list li {
+        display: inline;
+      }
+
+      .ban {
+        flex: 1;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+      }
+
+      .footer {
+        flex: 1;
+        background:white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px;
+      }
+
+      .list {
+        list-style: none;
+        display: inline-block;
+      }
+
+      .hero {
+        flex: 4;
+        background: url(https://asset.indosport.com/article/image/284420/logo_mobile_legends-169.jpg?w=600);
+        /* object-fit: cover; */
+        background-size: cover;
+        /* width: 100%; */
+   
+        /* background-position-y: 400px; */
+        /* object-fit: cover; */
+        /* align-items: stretch; */
+      }
+
+      .content {
+        flex: 8;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .com {
+        padding: 5px;
+        overflow: hidden;
+        width: 80%;
+        background: whitesmoke;
+        margin: auto;
+        height: 50px;
+        margin: 5px auto;
+        border-radius: 10px;
+      }
+
+    </style>
+    <div class="container">
+      <div class="ban">
+        <h3>Mobile Legends
+        </h3>
+        <ul class="list">
+          <li> <a href="">Home</a> </li>
+          <li>|</li>
+          <li> <a href="">Contact</a></li>
+          <li>|</li>
+          <li> <a href="">About</a></li>
+        </ul>
+      </div>
+      <div class="hero">
+        <!-- <img style="max-width: 100%;  " src="https://i.pinimg.com/originals/70/d6/b3/70d6b3aaf2857dce05601505b8ca7db0.jpg" alt=""> -->
+      </div>
+      <div style="height: 750px;" class="content">
+        <div style="flex:1;background:grey;low-y: scroll; overflow-y:scroll; 
+               position:relative;
+              padding: 20px;">
+          <center>
+            <h4>Comment</h4>
+          </center>
+          <div class="com">
+          <p><img src="http://raw.cdn.baca.co.id/9dd1b87c-405e-4d66-8686-7e79c9623fb1http://raw.cdn.baca.co.id/9dd1b87c-405e-4d66-8686-7e79c9623fb1" alt=""></p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum qui temporibus inventore, explicabo excepturi illo hic et quod culpa quae! lorem10` </p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="com">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div style="flex:3;background:white;ng: 20px;
+      position:relative; overflow: auto;
+     ">
+          <center>
+            <h3>Mobile legends : Bang Bang
+          </center>
+          <br>
+          Mobile Legends: Bang Bang adalah sebuah permainan MOBA yang dirancang untuk ponsel. Kedua tim lawan berjuang untuk mencapai dan menghancurkan basis musuh sambil mempertahankan basis mereka sendiri untuk mengendalikan jalan setapak, tiga "jalur" yang dikenal sebagai "top", "middle" dan "bottom", yang menghubungkan basis-basis. 
+          </br>
+          <br>
+Di masing-masing tim, ada lima pemain yang masing-masing mengendalikan avatar, yang dikenal sebagai "hero", dari perangkat mereka sendiri. Karakter terkontrol komputer yang lebih lemah, yang disebut "minions", bertelur di basis tim dan mengikuti tiga jalur ke basis tim lawan, melawan musuh dan menara.
+          </br>
+
+
+        </div>
+      </div>
+      <div class="footer">
+        <ul class="list" style=" list-style:none;">
+          <li> <a href="">Home</a> </li>
+          <li>|</li>
+          <li> <a href="">Contact</a></li>
+          <li>|</li>
+          <li> <a href="">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>
